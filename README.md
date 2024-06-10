@@ -1,1 +1,1 @@
-Disgusting, but "simple", mostly JS
+Classic Pong Game with bad UI
