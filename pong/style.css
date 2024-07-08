@@ -1,4 +1,4 @@
-*, *::before, *::after { /* selects everything */
+*, *::before, *::after {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* just a font */
     margin: 0;
     padding: 0;
@@ -9,11 +9,11 @@ body {
 }
 body, main {
     max-width: 100%;
-    min-height: 100svh; /* phone */
+    min-height: 100svh;
     min-height: 100vh;
 }
 html {
-    font-size: 15px; /* global font size */
+    font-size: 15px;
 }
 header {
     background-color: #2eec71;
@@ -29,7 +29,6 @@ canvas {
     display: none;
     border: 3px solid #555;
 }
-/* great for footer, css nesting */
 footer {
     display: grid;
     place-items: center;
@@ -53,7 +52,6 @@ button {
 button:hover {
     transform: scale(1.05);
 }
-/* hold of button animation */
 button:active {
     transform: scale(1.1);
 }
